@@ -4,6 +4,16 @@ let c;
 let x1;
 let x2;
 
+a=2;
+b=-3;
+c=-4;
 if (a==0) {
-
+alert("Coeeficient A must not be zero");
 }
+else {
+x1=(-b+Math.sqrt(Math.pow(b,2)-4*a*c))/(2*a);
+x2=(-b-Math.sqrt(Math.pow(b,2)-4*a*c))/(2*a);
+}
+
+console.log("x1 = "+x1);
+console.log("x2 = "+x2);
